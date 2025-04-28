@@ -1,0 +1,107 @@
+#nav{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 60vw;
+    width: 100%;
+}
+
+
+#blog-entries-container {
+    max-width: 60vw;
+    margin: 2rem auto !important;
+    padding: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--fg);
+}
+
+.blog-entry {
+    border-bottom: 1px solid var(--fg);
+    padding-bottom: 2rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.blog-entry > h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--fg);
+    border-bottom: 2px solid var(--fg);
+    padding-bottom: 0.5rem !important;
+}
+
+.blog-entry h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem !important;
+    margin-bottom: 0.5rem !important;
+    color: var(--fg);
+}
+
+.blog-entry p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem !important;
+    color: var(--fg);
+}
+
+.blog-entry img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0.5rem 0;
+    border-radius: 4px;
+}
+
+.blog-entry img + p {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: var(--fg);
+    margin-top: 0;
+}
+
+.blog-entry pre {
+    background-color: #1a1a1a;
+    border: 1px solid var(--fg);
+    padding: 1rem;
+    overflow-x: auto;
+    border-radius: 4px;
+    margin-bottom: 1rem !important;
+}
+
+.blog-entry code {
+    font-family: 'Source Code Pro', monospace, monospace;
+    font-size: 0.9rem;
+    color: var(--fg);
+    white-space: pre-wrap;
+}
+
+#image-popup-dialog::backdrop {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#image-popup-dialog img {
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: initial !important;
+    cursor: default;
+}
+
+
+@media (max-width: 600px) {
+    #blog-entries-container {
+        padding: 0.5rem;
+        margin: 1rem;
+    }
+
+    .blog-entry > h2 {
+        font-size: 2rem;
+    }
+
+    .blog-entry h3 {
+        font-size: 1.25rem;
+    }
+}

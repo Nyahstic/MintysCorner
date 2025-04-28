@@ -1,0 +1,92 @@
+:root{
+    --bg   : #000114;
+    --fg   : #e7e5fc;
+    --focus: #5aaaff;
+}
+
+*:not(#image-popup-dialog) {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg);
+    color: var(--fg);
+    height: 100vh;
+    line-height: 1.6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+}
+
+h1, h2, h3 {
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: var(--fg);
+}
+
+h1 {
+    margin-bottom: 0;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-weight: 400;
+    color: var(--fg);
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 100%;
+    max-width: 60vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.card h3{
+    margin-bottom: 0;
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    border-bottom: 2px solid var(--fg);
+    padding-bottom: 5px;
+    color: var(--fg);
+}
+
+.card ul li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: var(--focus);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1000px) {
+    body {
+        padding: 10px;
+    }
+    .container {
+        max-width: 100%;
+    }
+}

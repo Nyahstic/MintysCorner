@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not Found</title>
+    <style>
+        :root{
+            --bg   : #000114;
+            --fg   : #e7e5fc;
+            --focus: #5aaaff;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg);
+            color: var(--fg);
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1, h2, h3 {
+            margin-bottom: 15px;
+            font-weight: 600;
+            color: var(--fg);
+        }
+        
+        a {
+            color: var(--focus);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="error">
+        <h1>The page you requested was not found, how about <a href="/index.html">going back?</a></h1>
+    </div>
+</body>
+</html>

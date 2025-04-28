@@ -1,0 +1,13 @@
+{
+    "prev": "01_First",
+    "next": "MythosBotCreation",
+    "title": "Stuff I made on MythosBot",
+    "documentTitle": "Creation of MythosBot!",
+    "content": [
+        {
+            "title": "First Blog Post!",
+            "content": "This is the first blog post. It is a test post to see how the blog works.",
+            "type": "bigText"
+        }
+    ]
+}

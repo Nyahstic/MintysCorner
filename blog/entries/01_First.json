@@ -1,0 +1,28 @@
+{
+    "prev": null,
+    "next": "MythosBotCreation",
+    "title": "First Blog Post!",
+    "documentTitle": "First Post!",
+    "content": [
+        {
+            "title": "First Blog Post!",
+            "content": "This is the first blog post. It is a test post to see how the blog works.",
+            "type": "bigText"
+        },
+        {
+            "title": "First Blog Image",
+            "content": "This is the first blog image. It is a test image to see how the blog works.",
+            "path": "/blog/imgs/example01.png",
+            "alt": "This is an image.",
+            "type": "image"
+        },
+        {
+            "title": "First Blog Code Snippet",
+            "content": [
+                "// Line 1",
+                "Console.WriteLine(\"Hello, World!\");"
+            ],
+            "type": "code"
+        }
+    ]
+}

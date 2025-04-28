@@ -1,0 +1,11 @@
+{
+    "title": "First Blog Post!",
+    "documentTitle": "First Post!",
+    "content": [
+        {
+            "title": "First Blog Post!",
+            "content": "This is the first blog post. It is a test post to see how the blog works.",
+            "type": "bigText"
+        }
+    ]
+}

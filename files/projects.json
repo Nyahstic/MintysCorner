@@ -1,0 +1,19 @@
+{
+    "projects": [
+        {
+            "name":"MythosBot",
+            "description": "MythosBot is a Discord bot that helps users manage RPG character sheets.",
+            "link": "https://github.com/Nyahstic2/MythosBot"
+        },
+        {
+            "name":"Minty's Corner",
+            "description": "This website!",
+            "link": "https://github.com/Nyahstic/MintysCorner"
+        },
+        {
+            "name":"Beltmatic Calculator",
+            "description": "A C# project to assist with Beltmatic, a tool to make the process easier.",
+            "link": "https://github.com/Nyahstic/Beltmatic-Calculator-Helper"
+        }
+    ]
+}
